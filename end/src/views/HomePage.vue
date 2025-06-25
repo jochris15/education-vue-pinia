@@ -1,6 +1,4 @@
 <script setup>
-// dengan menggunakan script setup kita tidak perlu mendeklarasikan export default & setup() secara manual
-
 import ProductCard from "@/components/ProductCard.vue";
 import { useCounterStore } from "@/stores/counter";
 import { useProductsStore } from "@/stores/products";

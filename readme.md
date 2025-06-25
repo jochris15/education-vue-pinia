@@ -47,9 +47,11 @@ Step by step untuk membuat store dengan Pinia:
     - [Actions](https://pinia.vuejs.org/core-concepts/actions.html): Fungsi yang bisa kita gunakan untuk mengubah state
 7. Return state, getters , dan action di dalam store jika menggunakan Setup Stores
 8. Export store yang udah dibuat
-9. Import store di dalam komponen yang ingin kita gunakan
-10. Destrkuktur store yang kita import dengan menggunakan `storeToRefs`
-11. Gunakan state, actions, dan getters di dalam komponen kita
+
+## [Using the store](https://pinia.vuejs.org/core-concepts/#Using-the-store)
+1. Import store di dalam komponen yang ingin kita gunakan
+2. Destrkuktur store yang kita import dengan menggunakan `storeToRefs`
+3. Gunakan state, actions, dan getters di dalam komponen kita
 
 ## Fetching data with Pinia
 
