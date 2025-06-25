@@ -23,7 +23,7 @@ const { increment } = store;
         <input
           type="text"
           placeholder="Enter Name"
-          class="bg-white rounded-2xl w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+          class="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
         />
       </div>
       <div>
@@ -33,7 +33,7 @@ const { increment } = store;
         <input
           type="text"
           placeholder="Enter Description"
-          class="bg-white rounded-2xl w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+          class="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
         />
       </div>
       <div>
@@ -43,7 +43,7 @@ const { increment } = store;
         <input
           type="number"
           placeholder="Enter Price"
-          class="bg-white rounded-2xl w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+          class="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
         />
       </div>
       <div>
@@ -53,7 +53,7 @@ const { increment } = store;
         <input
           type="number"
           placeholder="Enter Stock"
-          class="bg-white rounded-2xl w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+          class="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
         />
       </div>
       <div>
@@ -63,7 +63,7 @@ const { increment } = store;
         <input
           type="text"
           placeholder="Enter Image URL"
-          class="bg-white rounded-2xl w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+          class="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
         />
       </div>
       <div>
@@ -71,7 +71,7 @@ const { increment } = store;
           <span class="font-bold">Category</span>
         </label>
         <select
-          class="bg-white rounded-2xl w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
+          class="bg-white w-full px-3 py-2 border-2 border-black rounded-2xl shadow-[2px_2px_0px_rgba(0,0,0,1)]"
           name="category"
           id=""
         >
