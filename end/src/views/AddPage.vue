@@ -2,9 +2,9 @@
 import { useCounterStore } from "@/stores/counter";
 import { storeToRefs } from "pinia";
 
-const store = useCounterStore();
-const { name, doubleCount, count } = storeToRefs(store);
-const { increment } = store;
+const counterStore = useCounterStore();
+const { name, doubleCount, count } = storeToRefs(counterStore);
+const { increment } = counterStore;
 </script>
 
 <template>

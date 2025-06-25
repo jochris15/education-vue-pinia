@@ -7,9 +7,9 @@ import { useProductsStore } from "@/stores/products";
 import { storeToRefs } from "pinia";
 
 // counter pinia
-const store = useCounterStore();
-const { name, doubleCount, count } = storeToRefs(store);
-const { increment } = store;
+const counterStore = useCounterStore();
+const { name, doubleCount, count } = storeToRefs(counterStore);
+const { increment } = counterStore;
 
 // products pinia
 const productsStore = useProductsStore();

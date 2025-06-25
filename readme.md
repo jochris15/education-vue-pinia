@@ -31,15 +31,21 @@ Jika sudah terinstall, kita bisa inisialisasi Pinia di dalam file `main.js` deng
 3. Gunakan `app.use(pinia)` untuk menginstall Pinia ke dalam aplikasi kita
 
 ## [Define a Store](https://pinia.vuejs.org/core-concepts/#Defining-a-Store)
+[Option Stores](https://pinia.vuejs.org/core-concepts/#Option-Stores)
+
+[Setup Stores](https://pinia.vuejs.org/core-concepts/#Setup-Stores)
 
 Step by step untuk membuat store dengan Pinia:
 1. Buat folder `stores` di dalam folder `src`
 2. Buat file `counter.js` di dalam folder `stores`
 3. Import `defineStore` dari `pinia`
 4. Buat store dengan menggunakan `defineStore`
-5. import `ref` & `computed` dari `vue`
-6. Buat state,computed properties, function di dalam store
-7. Return state, computed properties, dan function di dalam store
+5. import `ref` & `computed` dari `vue` jika menggunakan Setup Stores
+6. Buat state, getters , function di dalam store, 
+    - [State](https://pinia.vuejs.org/core-concepts/state.html): Data reaktif yang bisa kita share antarkomponen
+    - [Getters](https://pinia.vuejs.org/core-concepts/getters.html): Computed properties dari state
+    - [Actions](https://pinia.vuejs.org/core-concepts/actions.html): Fungsi yang bisa kita gunakan untuk mengubah state
+7. Return state, getters , dan action di dalam store jika menggunakan Setup Stores
 8. Export store yang udah dibuat
 9. Import store di dalam komponen yang ingin kita gunakan
 10. Destrkuktur store yang kita import dengan menggunakan `storeToRefs`
